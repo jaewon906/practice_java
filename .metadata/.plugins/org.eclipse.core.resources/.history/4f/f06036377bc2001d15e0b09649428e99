@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("문장의 갯수를 입력하세요");
+		int length = 0;
+		
+		length = sc.nextInt();
+		String [] arr = new String[length];
+		
+		System.out.println("문장을 이전의 갯수만큼 입력하세요");
+		System.out.println(length);
+		
+		for(int i=0; i<length;i++) {
+			
+			arr[i] = sc.nextLine();
+			System.out.println("arr"+"["+i+"]"+" = "+arr[i]);
+			
+		}
+
+	}
+
+}

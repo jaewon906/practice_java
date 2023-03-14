@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String[] func = new String[5];
+//		for 문 안에 Scanner를 입력하면 func[0] ~ func[4] 까지 사용자의 입력을 받는다.
+		for (int i=0; i<=4; i++){
+			func[i] = sc.nextLine();
+		}
+		System.out.print(func);
+	}
+
+}
